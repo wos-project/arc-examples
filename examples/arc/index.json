@@ -1,0 +1,23 @@
+{
+        "version": "v1",
+        "metadata": {
+                "name": "example-mp4",
+                "createdAt": "2021-12-15T01:01:01Z",
+                "description": "example simple audio mp4",
+                "privacy" : "public",
+                "visibility": "visible",
+                "fidelity": [
+                        "phone",
+                        "earbuds"
+                ]
+        },
+        "kind": "arc",
+        "spec": {
+                "coverImageUri": "/media/example-cover-image.jpg",
+                "representation": [{
+                        "profile": "audio",
+                        "mimeType": "audio/mp4",
+                        "uri": "/media/hello.mp3"
+                }]
+        }
+}

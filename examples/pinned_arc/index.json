@@ -1,0 +1,23 @@
+{
+        "version": "v1",
+        "metadata": {
+          "name": "arc pin",
+          "createdAt": "2021-12-15T01:01:01Z",
+          "description": "example pinned arc",
+          "privacy" : "public",
+          "visibility": "visible",
+          "fidelity": [
+                "phone",
+                "earbuds"
+          ]
+        },
+        "kind": "pinnedArc",
+        "spec": {
+                "arcSelector": {
+                        "cid": "QmYTkr5tJrTgkG2U6SQubLT9YtmEfe6fVYhpZKEYicMath"
+                },
+                "pinSelector": {
+                        "cid": "QmSah89GPWKAZZGtSzRYg7f4XZcJB9XT6KaArXYYT7RVjb"
+                }
+        }
+      }
