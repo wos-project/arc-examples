@@ -1,0 +1,31 @@
+{
+        "version": "v1",
+        "metadata": {
+                "name": "example-usdz",
+                "createdAt": "2021-12-15T01:01:01Z",
+                "description": "example simple 3d object",
+                "privacy" : "public",
+                "visibility": "visible",
+                "fidelity": [
+                        "phone"
+                ]
+        },
+        "kind": "arc",
+        "spec": {
+                "coverImageUri": "/media/example-cover-image.jpg",
+                "representation": [{
+                        "profile": "usdz:3d:model",
+                        "mimeType": "model/vnd+usdz",
+                        "uri": "/media/LemonMeringuePie.usdz"
+                }],
+                "animation": {
+                        "kind": "matrixTransform",
+                        "matrix": [[
+                                [1, 0, 0, 0],
+                                [0, 0, 1, 0],
+                                [0, -1, 0, 0],
+                                [0, 0, 0, 1]]
+                        ]
+                }                
+        }
+}

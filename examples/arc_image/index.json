@@ -1,14 +1,13 @@
 {
         "version": "v1",
         "metadata": {
-                "name": "example-mp4",
+                "name": "example-image",
                 "createdAt": "2021-12-15T01:01:01Z",
-                "description": "example simple audio mp4",
+                "description": "example simple image",
                 "privacy" : "public",
                 "visibility": "visible",
                 "fidelity": [
-                        "phone",
-                        "earbuds"
+                        "phone"
                 ]
         },
         "kind": "arc",
@@ -19,8 +18,8 @@
                         "mimeType": "image/jpeg",
                         "uri": "/media/example-image.jpg"
                 }],
-                "transform": {
-                        "kind": "matrixArray",
+                "animation": {
+                        "kind": "matrixTransform",
                         "matrix": [[
                                 [1, 0, 0, 0],
                                 [0, 0, 1, 0],

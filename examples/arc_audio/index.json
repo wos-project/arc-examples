@@ -1,9 +1,9 @@
 {
         "version": "v1",
         "metadata": {
-                "name": "example-mp4",
+                "name": "example-mp3",
                 "createdAt": "2021-12-15T01:01:01Z",
-                "description": "example simple audio mp4",
+                "description": "example simple mp3 audio",
                 "privacy" : "public",
                 "visibility": "visible",
                 "fidelity": [
@@ -16,7 +16,7 @@
                 "coverImageUri": "/media/example-cover-image.jpg",
                 "representation": [{
                         "profile": "audio",
-                        "mimeType": "audio/mp4",
+                        "mimeType": "audio/mp3",
                         "uri": "/media/hello.mp3"
                 }]
         }
