@@ -1,0 +1,44 @@
+{
+        "apiVersion": "v1",
+        "metadata": {
+                "name": "example-pin",
+                "createdAt": "2021-12-15T01:01:01Z",
+                "description": "simple point pin",
+                "location": {
+                        "lat": 41.5,
+                        "lon": -71.5
+                }
+        },
+        "kind": "pin",
+        "spec": {
+                "world": {
+                        "uri": "https://questori.com/world"
+                },
+                "pinning": {
+                        "kind": "path",
+                        "spec": {
+                                "srid": "4326",
+                                "points": [{
+                                        "lat": 41.512,
+                                        "lon": -71.5,
+                                        "elev": 1.6
+                                },{
+                                        "lat": 41.513,
+                                        "lon": -71.5,
+                                        "elev": 1.6
+                                },{
+                                        "lat": 41.514,
+                                        "lon": -71.5,
+                                        "elev": 1.6
+                                },{
+                                        "lat": 41.515,
+                                        "lon": -71.5,
+                                        "elev": 1.6
+                                }],
+                                "layer": "public"
+                        }
+                }
+        }
+}
+      
+      
