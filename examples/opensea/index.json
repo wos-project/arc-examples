@@ -1,0 +1,10 @@
+{
+	"name": "Herbie Starbelly",
+	"description": "A friendly OpenSea creature ready to adventure",
+	"external_link": "https://opeseacreatures.com/1234",
+	"image": "https://opeseacreatures.com/1234/thumb.png",
+	"traits": [{
+		"trait_type": "Stamina",
+		"value": 3
+	}]
+}
